@@ -1,0 +1,197 @@
+@font-face
+{
+   font-family:myfont;
+    src: url(PatuaOne-Regular.woff);
+}
+
+@font-face
+{
+   font-family:myfont1;
+    src: url(Quicksand-Bold.woff);
+}
+
+body 
+{
+      background: url("Pic13.png");    
+      font-family: myfont;
+      font-size: 16px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+}
+
+
+header
+{
+    margin: 0;
+    padding: 0;
+    //background: black;
+}
+.wrapper
+{
+    color: #E2472F;
+    padding: 8px 0px 0px 0px;
+    height: 61px;
+}
+
+.class
+{
+    background: black;
+}
+
+nav
+{
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+nav .logo
+{
+    padding: 5px 0px 0px 60px;
+    height: 20px;
+    float: left;
+    font-size: 24px;
+    transition: .3s;
+    font-weight: bold;
+}
+
+nav .bakwaas
+{
+    padding: 5px 6px;
+    height: 20px;
+    float: left;
+    font-size: 24px;
+    transition: .3s;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+nav ul
+{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li
+{
+    list-style: none;
+}
+
+nav ul li a
+{
+    line-height: 35px;
+    margin-right: 20px;
+    color: black;
+    padding: 12px 25px;
+    text-decoration: none;
+    transition: .3s;
+    border-style: solid;
+    
+}
+
+nav ul li a:focus
+{
+    outline: none;
+}
+
+nav ul li a.activea
+{
+    background: #E2472F;
+    color: white;
+    border-radius: 6px;
+}
+
+
+.swiper-container
+{
+      width: 100%;
+    height: 0%;
+      padding-top: 150px;
+      padding-bottom: 500px;
+}
+
+.swiper-slide
+{
+      background-position: center;
+      background-size: cover;
+      width: 355px;
+      height: 380px;
+      background: #fff;
+}
+
+.swiper-slide .imgBx
+{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.swiper-slide .imgBx img
+{
+    width: 100%;    
+}
+
+.swiper-slide .details
+{
+    box-sizing:border-box;
+    padding: 0;
+}
+
+
+.swiper-slide .details h3
+{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.swiper-slide .details h3 span
+{
+    font-size: 18px;
+    color: #f44336;
+}
+
+.buttons
+{
+    font-family: myfont1;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin: 20px;
+}
+
+.buttons a
+{
+    text-align: center;
+    line-height: 16.5px;
+    margin-right: 0px;
+    color: black;
+    padding: 8px 8px;
+    text-decoration: none;
+    transition: .3s;
+    border-style: solid;
+    
+}
+
+.buttons a:hover
+{
+    color: #f44336;
+    text-decoration: underline;
+}
+
+.divider
+{
+    background-color: black;
+    height: 2px;
+}

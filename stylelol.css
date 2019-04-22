@@ -1,0 +1,296 @@
+@font-face
+{
+   font-family:myfont;
+    src: url(PatuaOne-Regular.woff);
+}
+
+@font-face
+{
+   font-family:myfont1;
+    src: url(Quicksand-Bold.woff);
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #00080c;
+    overflow-x: hidden;
+}
+
+.lolol input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.lolol input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #fc0c18;
+    color: #000;
+}
+
+.lolol ul
+{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #00151f;
+    padding: 10px 20px;
+    /*width: 200px;*/
+    width: 90%;
+    border: 1px solid rgba(0,0,0,.5);
+}
+
+.lolol ul li
+{
+    list-style: none;
+    position: relative;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+.lolol ul li:last-child
+{
+    border-bottom: none;
+}
+
+.lolol ul li label
+{
+    font-size: 18px;
+    color: #fff;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.lolol ul li label input
+{
+    opacity: 0;
+    cursor: pointer;
+}
+
+.lolol ul li label .check
+{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: #000;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.lolol ul li label .check:before
+{
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    right: 3px;
+    bottom: 3px;
+    border-radius: 2px;
+    transition: 0.5s;
+    transform: translateX(185px);
+}
+
+.lolol ul li label input:checked ~ .check:before
+{
+    background: #adf000;
+    box-shadow: 0 0 15px #adf000;
+    transform: translateX(0px);
+}
+
+
+
+
+
+
+header
+{
+    margin: 0;
+    padding: 0;
+    //background: black;
+}
+
+.divider
+{
+    background-color: white;
+    height: 2px;
+}
+
+.wrapper
+{
+    color: #E2472F;
+    padding: 8px 0px 0px 0px;
+    height: 61px;
+}
+
+.class
+{
+    background: black;
+}
+
+.lol
+{
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.lol .logo
+{
+    padding: 5px 0px 0px 60px;
+    height: 20px;
+    float: left;
+    font-size: 24px;
+    transition: .3s;
+    font-weight: bold;
+}
+
+.lol .bakwaas
+{
+    padding: 5px 6px;
+    height: 20px;
+    float: left;
+    font-size: 24px;
+    transition: .3s;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.lol ul
+{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.lol ul li
+{
+    list-style: none;
+}
+
+.lol ul li a
+{
+    line-height: 35px;
+    margin-right: 20px;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    transition: .3s;
+    border-style: solid;
+    
+}
+
+.lol ul li a:focus
+{
+    outline: none;
+}
+
+.lol ul li a.activea
+{
+    background: #E2472F;
+    color: white;
+    border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+
+.clr
+{
+    clear:both;
+}
+
+.footer-main
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #3d3d3d;
+    padding: 30px 20px;
+}
+
+.footer-inner
+{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+.footer-left
+{
+    width: 380px;
+    height: auto;
+    float: left;
+    border: 1px solid transparent;
+}
+
+.footer-box
+{
+    width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: 30px;
+    border: 1px solid transparent;
+}
+
+.footer-box h6
+{
+    font-family: myfont1;
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+    margin: 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.footer-box ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-box ul li
+{
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+.footer-box ul li a
+{
+    font-family: myfont1;
+    font-size: 14px;
+    color: #999;
+}
+
+.footer-box ul li a:hover
+{
+    color: white;
+}

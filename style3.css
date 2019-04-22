@@ -1,0 +1,245 @@
+@font-face
+{
+   font-family:myfont;
+    src: url(PatuaOne-Regular.woff);
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: myfont;
+}
+
+.divider
+{
+    background-color: white;
+    height: 2px;
+}
+
+header
+{
+    margin: 0;
+    padding: 0;
+    //background: black;
+}
+.wrapper
+{
+    color: #E2472F;
+    padding: 8px 0px 0px 0px;
+    height: 61px;
+}
+
+.class
+{
+    background: black;
+}
+
+nav
+{
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+nav .logo
+{
+    padding: 5px 60px;
+    height: 20px;
+    float: left;
+    font-size: 24px;
+    transition: .3s;
+    font-weight: bold;
+}
+
+
+nav ul
+{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li
+{
+    list-style: none;
+}
+
+nav ul li a
+{
+    line-height: 35px;
+    margin-right: 20px;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    transition: .3s;
+    border-style: solid;
+    
+}
+
+nav ul li a:focus
+{
+    outline: none;
+}
+
+nav ul li a.activea
+{
+    background: #E2472F;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.container
+{
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.container .column
+{
+    width: 20%;
+    height: 80%;
+    float: left;
+    border-right: 2px solid transparent rgba(0,0,0,.5);
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.container .column:last-child
+{
+    border-right: none;
+}
+
+.container .column .content
+{
+    position: relative;
+    height: 100%;
+}
+
+.container .column .content h1
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    background: rgba(0,0,0,.1);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: rgba(255,255,255,.2);
+    font-size: 15em;
+    border-top: 2px solid transparent rgba(0,0,0,.5);
+    border-bottom: 2px solid transparent rgba(0,0,0,.5);
+}
+
+.container .column .content .box
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(100%);
+    box-sizing: border-box;
+    padding: 40px;
+    background: rgba(255,255,255,1);
+    text-align: center;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.container .column .content a
+{
+    text-decoration: none;
+    line-height: 20px;
+}
+
+.container .column .content .box h2:hover
+{
+    color: dodgerblue;
+}
+
+.container .column .content .box h2
+{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #262626;
+}
+
+.container .column.active .content .box
+{
+    opacity: 1;
+    transform: translateY(-50%);
+}
+
+.container .column .content .box p
+{
+    color: #262626;
+    font-size: 18px;
+}
+
+.container .column .content .box p:hover
+{
+    color: #fb2525;
+}
+
+.container .column .bg
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.container .column.active .bg.bg1
+{
+    background: url("pic5.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    transition: 0.5s
+}
+
+.container .column.active .bg.bg2
+{
+    background: url("pic6.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    transition: 0.5s
+}
+
+.container .column.active .bg.bg3
+{
+    background: url("pic12.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    transition: 0.5s
+}
+
+.container .column.active .bg.bg4
+{
+    background: url("pic4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    transition: 0.5s
+}
+
+.container .column.active .bg.bg5
+{
+    background: url("pic1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    transition: 0.5s
+}

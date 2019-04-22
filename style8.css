@@ -1,0 +1,748 @@
+@font-face
+{
+   font-family:myfont;
+    src: url(PatuaOne-Regular.woff);
+}
+
+@font-face
+{
+   font-family:myfont1;
+    src: url(Quicksand-Bold.woff);
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #000;
+    overflow-x: hidden;
+}
+
+.card1
+{
+    position: absolute;
+    top: 57%;
+    left: 280px;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    transform-style: preserve-3d;
+    transform: translate(-50%,-50%) perspective(2000px);
+    box-shadow: inset 300px 0 50px rgba(0,0,0,.5), 0 20px 100px rgba(0,0,0,.5);
+    transition: 1s;
+}
+
+.card1:hover
+{
+    transform: translate(-50%,-50%) perspective(2000px) rotate(-10deg);
+    box-shadow: inset 20px 0 50px rgba(0,0,0,.5), 0 10px 100px rgba(0,0,0,.5);
+    
+}
+
+.card1:before
+{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: #475b02;
+    transform-origin: bottom;
+    transform: skewX(-45deg);
+}
+
+.card1:after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -5px;
+    width: 5px;
+    height: 100%;
+    background: #7EA301;
+    transform-origin: left;
+    transform: skewY(-45deg);
+}
+
+.card1 .imgBox
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-origin: left;
+    z-index: 1;
+    transition: 1s cubic-bezier(.15,1.7,.84,.58);
+}
+
+.card1:hover .imgBox
+{
+    transform: rotateY(-135deg);
+    
+}
+
+.card1 .details
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 20px;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.card2
+{
+    position: absolute;
+    top: 57%;
+    left: 640px;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    transform-style: preserve-3d;
+    transform: translate(-50%,-50%) perspective(2000px);
+    box-shadow: inset 300px 0 50px rgba(0,0,0,.5), 0 20px 100px rgba(0,0,0,.5);
+    transition: 1s;
+}
+
+.card2:hover
+{
+    transform: translate(-50%,-50%) perspective(2000px) rotate(-10deg);
+    box-shadow: inset 20px 0 50px rgba(0,0,0,.5), 0 10px 100px rgba(0,0,0,.5);
+    
+}
+
+.card2:before
+{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 100%;
+    height: 005px;
+    background: #475b02;
+    transform-origin: bottom;
+    transform: skewX(-45deg);
+}
+
+.card2:after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -5px;
+    width: 5px;
+    height: 100%;
+    background: #7EA301;
+    transform-origin: left;
+    transform: skewY(-45deg);
+}
+
+.card2 .imgBox
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-origin: left;
+    z-index: 1;
+    transition: 1s cubic-bezier(.15,1.7,.84,.58);
+}
+
+.card2:hover .imgBox
+{
+    transform: rotateY(-135deg);
+    
+}
+
+.card2 .details
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 20px;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card3
+{
+    position: absolute;
+    top: 57%;
+    left: 1000px;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    transform-style: preserve-3d;
+    transform: translate(-50%,-50%) perspective(2000px);
+    box-shadow: inset 300px 0 50px rgba(0,0,0,.5), 0 20px 100px rgba(0,0,0,.5);
+    transition: 1s;
+}
+
+.card3:hover
+{
+    transform: translate(-50%,-50%) perspective(2000px) rotate(-10deg);
+    box-shadow: inset 20px 0 50px rgba(0,0,0,.5), 0 10px 100px rgba(0,0,0,.5);
+    
+}
+
+.card3:before
+{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: #475b02;
+    transform-origin: bottom;
+    transform: skewX(-45deg);
+}
+
+.card3:after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -5px;
+    width: 5px;
+    height: 100%;
+    background: #7EA301;
+    transform-origin: left;
+    transform: skewY(-45deg);
+}
+
+.card3 .imgBox
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-origin: left;
+    z-index: 1;
+    transition: 1s cubic-bezier(.15,1.7,.84,.58);
+}
+
+.card3:hover .imgBox
+{
+    transform: rotateY(-135deg);
+    
+}
+
+.card3 .details
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 20px;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card4
+{
+    position: absolute;
+    top: 57%;
+    left: 1350px;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    transform-style: preserve-3d;
+    transform: translate(-50%,-50%) perspective(2000px);
+    box-shadow: inset 300px 0 50px rgba(0,0,0,.5), 0 20px 100px rgba(0,0,0,.5);
+    transition: 1s;
+}
+
+.card4:hover
+{
+    transform: translate(-50%,-50%) perspective(2000px) rotate(-10deg);
+    box-shadow: inset 20px 0 50px rgba(0,0,0,.5), 0 10px 100px rgba(0,0,0,.5);
+    
+}
+
+.card4:before
+{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: #475b02;
+    transform-origin: bottom;
+    transform: skewX(-45deg);
+}
+
+.card4:after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -5px;
+    width: 5px;
+    height: 100%;
+    background: #7EA301;
+    transform-origin: left;
+    transform: skewY(-45deg);
+}
+
+.card4 .imgBox
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-origin: left;
+    z-index: 1;
+    transition: 1s cubic-bezier(.15,1.7,.84,.58);
+}
+
+.card4:hover .imgBox
+{
+    transform: rotateY(-135deg);
+    
+}
+
+.card4 .details
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 20px;
+    z-index: -1;
+}
+
+.containerlol
+{
+    position: relative;
+    width: 1200px;
+    height: 340px;
+    margin: 0px auto;
+}
+
+.containerlol .boxlol
+{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: #000;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.containerlol .boxlol .iconlol
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.containerlol .boxlol:hover .iconlol
+{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.containerlol .boxlol .iconlol .fa
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.containerlol .boxlol:hover .iconlol .fa
+{
+    font-size: 40px;
+}
+
+.containerlol .boxlol .contentlol
+{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    transition: 0.5s;
+    box-sizing: border-box;
+    opacity: 0;
+}
+.containerlol .boxlol .contentlol1
+{
+    position: absolute;
+    top: 100%;
+    left: 3%;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    transition: 0.5s;
+    box-sizing: border-box;
+    opacity: 0;
+}
+.containerlol .boxlol:hover .contentlol1
+{
+    top: 100px;    
+    opacity: 1;
+}
+.containerlol .boxlol .contentlol1 h3
+{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.containerlol .boxlol .contentlol1 p
+{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+.containerlol .boxlol:hover .contentlol
+{
+    top: 100px;    
+    opacity: 1;
+}
+.containerlol .boxlol .contentlol h3
+{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.containerlol .boxlol .contentlol p
+{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.containerlol .boxlol:nth-child(1) .iconlol
+{
+    background: #319635;
+    
+}
+
+.containerlol .boxlol:nth-child(1)
+{
+    background: #4caf50;
+}
+
+.containerlol .boxlol:nth-child(2) .iconlol
+{
+    background: #d03852;
+    
+}
+
+.containerlol .boxlol:nth-child(2)
+{
+    background: #f54967;
+}
+.containerlol .boxlol:nth-child(3) .iconlol
+{
+    background: #23798e;
+    
+}
+
+.containerlol .boxlol:nth-child(3)
+{
+    background: #328fa5;
+}
+
+.containerlol .boxlol .contentlol2
+{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    transition: 0.5s;
+    box-sizing: border-box;
+    opacity: 0;
+}
+.containerlol .boxlol:hover .contentlol2
+{
+    top: 100px;    
+    opacity: 1;
+}
+.containerlol .boxlol .contentlol2 h3
+{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.containerlol .boxlol .contentlol2 p
+{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.neon
+{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0 20px;
+    font-size: 6em;
+    color: #fff;
+    text-shadow: 0 0 20px #ff005b;
+ 
+}
+.neon:after
+{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 20px;
+    z-index: -1;
+    color: #ff005b;
+    filter: blur(15px);
+}
+
+.neon:before
+{
+    content: '';
+    position: absolute;
+    top: 0;left 0;
+    width: 100%;
+    height: 100%;
+    background: #fe3a80;
+    z-index: -2;
+    opacity: .5;
+    filter: blur(40px);
+}
+
+.clr
+{
+    clear:both;
+}
+
+.footer-main
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #3d3d3d;
+    padding: 30px 20px;
+}
+
+.footer-inner
+{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+.footer-left
+{
+    width: 380px;
+    height: auto;
+    float: left;
+    border: 1px solid transparent;
+}
+
+.footer-box
+{
+    width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: 30px;
+    border: 1px solid transparent;
+}
+
+.footer-box h6
+{
+    font-family: myfont1;
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+    margin: 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.footer-box ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-box ul li
+{
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+.footer-box ul li a
+{
+    font-family: myfont1;
+    font-size: 14px;
+    color: #999;
+}
+
+.footer-box ul li a:hover
+{
+    color: white;
+}
+header
+{
+    margin: 0;
+    padding: 0;
+    //background: black;
+}
+
+.divider
+{
+    background-color: white;
+    height: 2px;
+}
+
+.wrapper
+{
+    color: #E2472F;
+    padding: 8px 0px 0px 0px;
+    height: 61px;
+}
+
+.class
+{
+    background: black;
+}
+
+nav
+{
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+nav .logo
+{
+    padding: 5px 0px 0px 60px;
+    height: 20px;
+    float: left;
+    font-size: 24px;
+    transition: .3s;
+    font-weight: bold;
+}
+
+nav .bakwaas
+{
+    padding: 5px 6px;
+    height: 20px;
+    float: left;
+    font-size: 24px;
+    transition: .3s;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+nav ul
+{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li
+{
+    list-style: none;
+}
+
+nav ul li a
+{
+    line-height: 35px;
+    margin-right: 20px;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    transition: .3s;
+    border-style: solid;
+    
+}
+
+nav ul li a:focus
+{
+    outline: none;
+}
+
+nav ul li a.activea
+{
+    background: #E2472F;
+    color: white;
+    border-radius: 6px;
+}

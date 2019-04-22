@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Registeration Form</title>
+        <link rel="stylesheet" href="style1.css" type="text/css">
+    </head>
+    <body>
+        <div class="simple-form">
+            <img src="avtar3.png" class="avtar1">
+            <h1>Register Yourself</h1>
+            <form id="registeration" action="insert.php" method="post">
+                <p>Enter Username:</p>
+                <input type="text" name="username" id="button" placeholder="Enter Username" required>
+                <p>Enter Email Address:</p>
+                <input type="email" name="email" id="button" placeholder="Enter Email Address" required>
+                <p>Enter Password:</p>
+                <input type="password" name="password" id="button" placeholder="Enter Password" required>
+                <p>Confirm Password:</p>
+                <input type="password" name="password2" id="button" placeholder="Confirm Password" required>
+                <p>Enter Phone Number:</p><br>
+                <select type="number" id="ph" name="phoneCode" required>
+                    <option selected hidden value="">Select Code</option>
+                    <option value="91">+91</option>
+                    <option value="92">+92</option>
+                    <option value="93">+93</option>
+                    <option value="94">+94</option>
+                    <option value="95">+95</option>
+                </select>
+                <input type="Phone" name="phone" placeholder="Enter Phone Number" id="ph" required>
+                <p>Select your Gender:</p><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="gender" id="rd" value="m" checked><span id="but">Male</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="gender" id="rd" value="f"><span id="but">Female</span><br><br>
+                <input type="submit" name="register_btn" value="Register"><br>
+                <a href="index.html">Already have an account?</a>
+            </form>
+        </div>
+    </body>
+</html>
